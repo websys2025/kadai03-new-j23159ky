@@ -2,20 +2,12 @@
 <html lang="ja">
     <head>
         <meta charset="urf-8">
-        <title>演習課題3-2</title>
+        <title>演習課題3-1</title>
     </head>
     <body>
         <script>
-            function sum(a) { // 引数は配列
-                let s = 0; // 合計値の計算用
-                for(let i = 0; a.length; i++) {
-                   s += a[i];
-                } // 配列を参照して合計値を計算する処理
-                return s;  // 戻り値はs
-            }
-            
-            let b = [10, 8, 14, 15];
-            console.log(sum(b)); // 合計値を計算し表示する処理
+            let item = { name: "勇者の剣", length: 97, weight: 10, owner: "情報花子"};
+            console.log(item.owner);
         </script>
     </body>
 </html>
