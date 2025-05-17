@@ -34,19 +34,12 @@
             console.log(`商品番号を入力(1～${items.length})\n`);
             return;
         }
-
+        
         const item = items[no - 1];
         console.log(`商品番号: ${item.id}, 商品名: ${item.name}を購入します。`);
 
         showItemList();
     }
-
-    showItemList(); 
-    buyItem(3); 
-    buyItem(5);   
-    buyItem(5);    
-    buyItem(9); 
-
 </script>
 </body>
 </html>
